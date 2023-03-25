@@ -17,11 +17,12 @@ html {
 	/*background-color: blue;*/
 	margin: auto;
 	width: 50%;
-	
+	text-align: center;
 }
 
-.web-enquiry-form h1 {
-	text-align: center;
+.input-fields {
+	/*background-color: green;*/
+	text-align: left;
 }
 
 input[type=text], input[type=email], textarea {

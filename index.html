@@ -17,18 +17,24 @@
 	
 	<!-- Divider for sending enquiries to the team -->
 	<div class="web-enquiry-form">
-		<form action="enquiry-form.php">
+		<form action="enquiry-form.php" method="post">
 		
 			<h1>Tell us more about your website.</h1>
 		
-			<label for="name">Full Name</label>
-			<input type="text" id="name" name="fullname">
+			<div class="input-fields">
+				<label for="name">Full Name</label>
+				<input type="text" id="name" name="fullname">
+			</div>
 			
-			<label for="email">Email</label>
-			<input type="email" id="email" name="useremail">
+			<div class="input-fields">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="useremail">
+			</div>
 			
-			<label for="details">Details</label>
-			<textarea id="details" name="enquiry"></textarea>
+			<div class="input-fields">
+				<label for="details">Details</label>
+				<textarea id="details" name="enquiry"></textarea>
+			</div>
 			
 			<input type="submit" value="Submit">
 			
