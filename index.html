@@ -11,34 +11,66 @@
 <body>
 	<!-- -->
 	<!-- Divider for team name, members and other relevant details -->
+	<div class="first">
+		<div class="hello">
+			<p>HELLO! WE ARE</p>
+		</div>
 	<div class="team-name">
-		<p>Convergence Web</p>
+		<p>CONVERGE WEB</p><br>
 	</div>
-	
+	<div class="description">
+		<p>
+			We are a collaborative team comprised of individuals from diverse 
+			backgrounds and skillsets, who have united to leverage our collective talents 
+			in crafting stunning websites. Our journey began as a ministry designing 
+			 websites for our church and its members. However, we have since evolved 
+			 and are eager to extend our services to the broader community. 
+		</p>
+		<br>
+		<p>
+			Whether you have a well-established business operating for many years or a 
+			start-up, we are here to help. From brainstorming to launch day, we're here 
+			to make the process enjoyable and stress-free. Our team is full of passionate 
+			individuals who love what they do, which shines through in every project we 
+			take on. We're all about making the experience as fun as it is professional! 
+			Using the latest technologies and design practices, we create fast, secure, 
+			and optimized websites for search engine rankings. And, of course, we'll 
+			ensure your website is as unique as your brand. We're not just here to build 
+			a website - we're here to create an online presence representing your business. 
+		</p>
+	</div>
+	</div>
 	<!-- Divider for sending enquiries to the team -->
+	<div class="second">
 	<div class="web-enquiry-form">
 		<form action="enquiry-form.php" method="post">
-		
-			<h1>Tell us more about your website.</h1>
-		
+			<div class="tell">
+			<p>Enquiry form</p>
+			<p>Tell us more about your website.</p>
+			</div>
 			<div class="input-fields">
-				<label for="name">Full Name</label>
-				<input type="text" id="name" name="fullname">
+				<input type="text" placeholder="FULL NAME" name="name" required>
 			</div>
 			
 			<div class="input-fields">
-				<label for="email">Email</label>
-				<input type="email" id="email" name="useremail">
+				<input type="text" placeholder="MOBILE" name="number" required>
+			</div>
+
+			<div class="input-fields">
+				<input type="text" placeholder="EMAIL" name="email" required>
 			</div>
 			
 			<div class="input-fields">
-				<label for="details">Details</label>
-				<textarea id="details" name="enquiry"></textarea>
+				<textarea type="text" placeholder="ENQUIRY" name="enquiry" required></textarea>
+			</div> 
+			
+			<div class="button">
+				<input type="submit" value="Submit">
 			</div>
 			
-			<input type="submit" value="Submit">
 			
 		</form>
+		</div>
 	</div>
 	
 </body>
