@@ -6,17 +6,16 @@
 }
 body{
 	display: flex;
-	height: 2000%;
+	height: auto;
 	flex-wrap: wrap;
 	text-rendering: auto;
 	justify-content: center;
 	align-items:center;
-	width: 75%;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 5px;
-	background: #fff;
-}
+}	
 .hello{
 	font-size: 30px;
 	margin-top: 70px;
@@ -42,39 +41,34 @@ text-align: left;
 
 }
 .first{
-	background-image: url('topbackground.jpg');
-	background-size:cover;
-	background-repeat: no-repeat;
-	max-width: 500%;
-	border-radius: 10px;
-	overflow: hidden;
-	padding-bottom: 25px;
-	margin-top: 3%;
-	break-after: auto;
-
+	background-image: url('TOP\ PNG.png');
+	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size:cover;
+	width: 100%;
 }
 .second{
-	background-image: url('bottombackground.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-bottom: 200px;
-	margin-top: 3%;
-	break-before: always;
-	width:500%;
-	height: 500%;
+	background-image: url('BOTTOM\ PNG.png');
+	background-position: bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
 }
-
-
+.enquiry{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 26px;
+	font-weight: 120;
+	text-align: left;
+	color: #000000;
+	padding-bottom: 60px;
+}
 .tell{
 font-family:'Courier New', Courier, monospace;
 font-size: 24px;
 font-weight: 100;
 text-align: left;
-padding: 15px;
-margin-left: -3%;
-padding-top: 15%;
-padding-bottom: 7%;
-color: rgb(77, 76, 76);
+color: black;
+padding-bottom: 30px;
 }
 
 .web-enquiry-form {
@@ -91,7 +85,6 @@ input[type=text], input[type=email]{
 	border: 1px solid #000000;
 	border-radius: 5px;
 	box-sizing: border-box;
-	margin-top: 8px;
 	margin-bottom: 10px;
 	justify-content: left;
 	flex-wrap: wrap;
@@ -105,10 +98,14 @@ textarea {
 	border-radius: 2px;
 	font-size: 15px;
 	background: #fff;
+	padding-top: 5px;
 	
 }
 ::placeholder{
-	color: #000000;
+	color: #000000a7;
+	padding-left: 9px;
+	size: 10px;
+
 }
 
 
@@ -122,5 +119,5 @@ input[type=submit] {
   text-align: center;
   border-radius: 5px;
   font-size: 15px;
-  margin
+  margin-top: 10px;
 }
